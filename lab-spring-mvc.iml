@@ -18,7 +18,15 @@
       </configuration>
     </facet>
     <facet type="Spring" name="Spring">
-      <configuration />
+      <configuration>
+        <fileset id="web: application context" name="MVC application context" removed="true">
+          <file>file://$MODULE_DIR$/web/WEB-INF/spring-mvc.xml</file>
+        </fileset>
+        <fileset id="fileset1" name="XML Application Context" removed="false">
+          <file>file://$MODULE_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml</file>
+        </fileset>
+        <fileset id="web: mvc-dispatcher servlet context" name="MVC mvc-dispatcher servlet context" removed="true" />
+      </configuration>
     </facet>
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
@@ -29,7 +37,6 @@
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" name="hibernate-4.2.2" level="project" />
-    <orderEntry type="library" scope="PROVIDED" name="Tomcat 6.0" level="application_server_libraries" />
     <orderEntry type="library" name="spring-3.2.2" level="project" />
     <orderEntry type="library" name="spring-security-3.1.4" level="project" />
     <orderEntry type="library" name="spring-mvc-3.2.2.RELEASE" level="project" />
