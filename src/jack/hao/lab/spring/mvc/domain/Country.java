@@ -12,7 +12,7 @@ import java.io.Serializable;
 import java.util.Date;
 
 @Entity
-@Table(name = "alameda.countries")
+@Table(name = "myapp.countries")
 @NamedQueries(value = {
         @NamedQuery(name = "Country.findAll", query = "SELECT c FROM Country c order by c.id asc")
 })

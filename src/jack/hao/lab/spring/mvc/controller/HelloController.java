@@ -17,15 +17,36 @@ import org.springframework.web.servlet.ModelAndView;
  * To change this template use File | Settings | File Templates.
  */
 @Controller
-@RequestMapping("/welcome.do")
 public class HelloController {
     @Autowired
     private CountryService countryService;
 
-    @RequestMapping(method = RequestMethod.GET)
+    @RequestMapping(value = "/welcome.do", method = RequestMethod.GET)
     public ModelAndView displayCountryList(ModelMap model) {
         model.put("countryList", countryService.getCountry());
         return new ModelAndView("country_list", "model", model);
+    }
+
+    @RequestMapping(value="/login.do", method = RequestMethod.GET)
+    public String login(ModelMap model) {
+
+        return "login";
+
+    }
+
+    @RequestMapping(value="/loginfailed.do", method = RequestMethod.GET)
+    public String loginerror(ModelMap model) {
+
+        model.addAttribute("error", "true");
+        return "login";
+
+    }
+
+    @RequestMapping(value="/logout.do", method = RequestMethod.GET)
+    public String logout(ModelMap model) {
+
+        return "login";
+
     }
 
 }

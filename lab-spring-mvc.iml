@@ -27,6 +27,10 @@
         <fileset id="fileset1" name="XML Application Context" removed="false">
           <file>file://$MODULE_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml</file>
         </fileset>
+        <fileset id="fileset2" name="spring-security" removed="false">
+          <dependency>fileset1</dependency>
+          <file>file://$MODULE_DIR$/web/WEB-INF/spring-security.xml</file>
+        </fileset>
         <fileset id="web: mvc-dispatcher servlet context" name="MVC mvc-dispatcher servlet context" removed="true" />
       </configuration>
     </facet>
