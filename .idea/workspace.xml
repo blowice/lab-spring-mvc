@@ -2,13 +2,25 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3ee2267c-c12b-4dd1-8636-db84053caa34" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/controller/HelloController.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/ant.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/hello.jsp" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/index.jsp" afterPath="$PROJECT_DIR$/web/index.jsp" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/domain/Country.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/dao/CountryDAOImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/service/CountryService.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/service/CountryServiceImpl.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/demo_page.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/demo_table.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/jdbc.properties" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.dataTables.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.dataTables.min.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/js/jquery.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/project_lib.xml" />
+      <change type="DELETED" beforePath="C:\javadev\projects\lab-spring-mvc\src\Main.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\javadev\projects\lab-spring-mvc\src\hibernate.cfg.xml" afterPath="" />
+      <change type="MOVED" beforePath="C:\javadev\projects\lab-spring-mvc\web\WEB-INF\jsp\hello.jsp" afterPath="$PROJECT_DIR$/web/WEB-INF/jsp/country_list.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/controller/HelloController.java" afterPath="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/controller/HelloController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-spring-mvc.iml" afterPath="$PROJECT_DIR$/lab-spring-mvc.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/web_war_exploded.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -18,8 +30,18 @@
     <file path="/Dummy.txt" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369486508907" ignored="false" />
     <file path="/index.jsp" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369484548591" ignored="false" />
     <file path="/spring-mvc.xml" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369486282322" ignored="false" />
-    <file path="/web.xml" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369487432535" ignored="false" />
+    <file path="/web.xml" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369622680736" ignored="false" />
     <file path="/a.dummy" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369486767432" ignored="false" />
+    <file path="/README.md" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369488287148" ignored="false" />
+    <file path="/ActionScript File Header.txt.ft" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369608934021" ignored="false" />
+    <file path="/File Header.txt.ft" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369608947966" ignored="false" />
+    <file path="/CountryDAO.java" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369609312931" ignored="false" />
+    <file path="/CountryDAOImpl.java" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369622388583" ignored="false" />
+    <file path="/CountryService.java" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369609473229" ignored="false" />
+    <file path="/CoutryServiceImpl.java" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369609620660" ignored="false" />
+    <file path="/CountryServiceImpl.java" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369609517145" ignored="false" />
+    <file path="/mvc-dispatcher-servlet.xml" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369609931314" ignored="false" />
+    <file path="/HelloController.java" changelist="3ee2267c-c12b-4dd1-8636-db84053caa34" time="1369623088663" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,46 +99,10 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="14" column="11" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="web.xml" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/web.xml">
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorProvider">
-            <state />
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleAssemblyDescriptorReferencesProvider">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="56" selection-start="824" selection-end="824" vertical-scroll-proportion="0.89045936">
-              <folding />
-            </state>
-          </provider>
-          <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
-            <state />
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="mvc-dispatcher-servlet.xml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="8" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="HelloController.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/controller/HelloController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="13" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
+            <state line="9" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -124,19 +110,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="hello.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/hello.jsp">
+      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="7" selection-start="59" selection-end="59" vertical-scroll-proportion="-2.25">
+            <state line="10" column="82" selection-start="324" selection-end="324" vertical-scroll-proportion="0.5645161">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.jsp" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/web/index.jsp">
+      <file leaf-file-name="Country.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/domain/Country.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="29" selection-start="170" selection-end="170" vertical-scroll-proportion="-3.9375">
+            <state line="12" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="country_list.jsp" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/country_list.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="41" column="35" selection-start="1754" selection-end="1765" vertical-scroll-proportion="-7.3125">
               <folding />
             </state>
           </provider>
@@ -161,11 +156,21 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/web/index.jsp" />
-        <option value="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/jsp/hello.jsp" />
         <option value="$PROJECT_DIR$/src/spring-mvc.xml" />
+        <option value="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/domain/Country.java" />
+        <option value="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/dao/CountryDAO.java" />
+        <option value="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/service/CountryService.java" />
+        <option value="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/service/CoutryServiceImpl.java" />
+        <option value="$PROJECT_DIR$/src/jdbc.properties" />
+        <option value="$PROJECT_DIR$/web/WEB-INF/jsp/country_list.jsp" />
+        <option value="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/service/CountryServiceImpl.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml" />
+        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/web/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/dao/CountryDAOImpl.java" />
+        <option value="$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -264,6 +269,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="web" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jsp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab-spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab-spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="src" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -282,7 +309,29 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="controller" />
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab-spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lab-spring-mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="mvc" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="domain" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -293,11 +342,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="GoToFile.includeJavaFiles" value="false" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="OverrideImplement.combined" value="false" />
     <property name="project.structure.proportion" value="0.15" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.lastSelected" value="fileTemplates" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/lib/postgresql-9.2-1002.jdbc4.jar!/" />
     <property name="project.structure.side.proportion" value="0.2635838" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
@@ -305,8 +357,15 @@
     <property name="restartRequiresConfirmation" value="true" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
+    <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\javadev\projects\lab-spring-mvc\web\WEB-INF\lib" />
+      <recent name="C:\javadev\projects\lab-spring-mvc\web" />
+      <recent name="C:\javadev\projects\lab-spring-mvc\lib" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\javadev\projects\lab-spring-mvc\web\WEB-INF" />
     </key>
@@ -418,6 +477,7 @@
       <method />
     </configuration>
     <configuration default="false" name="Tomcat 6.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 6.0">
+      <option name="SHOW_DIALOG_ON_UPDATE" value="false" />
       <deployment>
         <artifact name="web:war exploded">
           <settings>
@@ -497,6 +557,24 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration" maxAnnotateRevisions="500" myUseAcceleration="nothing" myAutoUpdateAfterCommit="false" cleanupOnStartRun="false">
+    <option name="USER" value="" />
+    <option name="PASSWORD" value="" />
+    <option name="mySSHConnectionTimeout" value="30000" />
+    <option name="mySSHReadTimeout" value="30000" />
+    <option name="LAST_MERGED_REVISION" />
+    <option name="MERGE_DRY_RUN" value="false" />
+    <option name="MERGE_DIFF_USE_ANCESTRY" value="true" />
+    <option name="UPDATE_LOCK_ON_DEMAND" value="false" />
+    <option name="IGNORE_SPACES_IN_MERGE" value="false" />
+    <option name="DETECT_NESTED_COPIES" value="true" />
+    <option name="CHECK_NESTED_FOR_QUICK_MERGE" value="false" />
+    <option name="IGNORE_SPACES_IN_ANNOTATE" value="true" />
+    <option name="SHOW_MERGE_SOURCES_IN_ANNOTATE" value="true" />
+    <option name="FORCE_UPDATE" value="false" />
+    <option name="IGNORE_EXTERNALS" value="false" />
+    <myIsUseDefaultProxy>false</myIsUseDefaultProxy>
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="3ee2267c-c12b-4dd1-8636-db84053caa34" name="Default" comment="" />
@@ -507,9 +585,9 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Persistence" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -529,8 +607,8 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24230146" sideWeight="0.62197393" order="3" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.37802607" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24230146" sideWeight="0.5102421" order="3" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.48975793" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -597,40 +675,38 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="11" selection-start="341" selection-end="341" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/controller/HelloController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="13" selection-start="676" selection-end="676" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/web/index.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="29" selection-start="170" selection-end="170" vertical-scroll-proportion="-3.9375">
+        <state line="7" column="13" selection-start="170" selection-end="170" vertical-scroll-proportion="-3.9375">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/hello.jsp">
+    <entry file="file://$PROJECT_DIR$/src/jdbc.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="7" selection-start="59" selection-end="59" vertical-scroll-proportion="-2.25">
+        <state line="6" column="36" selection-start="260" selection-end="260" vertical-scroll-proportion="0.35064936">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/css/demo_table.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="17" selection-start="275" selection-end="275" vertical-scroll-proportion="0.5017422">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/web/WEB-INF/mvc-dispatcher-servlet.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="8" selection-start="860" selection-end="860" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="48" column="42" selection-start="2135" selection-end="2135" vertical-scroll-proportion="-34.56">
+          <folding>
+            <element signature="e#1309#1329#0" expanded="true" />
+            <element signature="e#1368#1385#0" expanded="true" />
+            <element signature="e#1429#1447#0" expanded="true" />
+            <element signature="e#1491#1513#0" expanded="true" />
+            <element signature="tag#prop#0;tag#props#0;tag#property#2;tag#bean#2;tag#beans#0" expanded="true" />
+            <element signature="tag#prop#1;tag#props#0;tag#property#2;tag#bean#2;tag#beans#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -642,12 +718,78 @@
         <state />
       </provider>
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="56" selection-start="824" selection-end="824" vertical-scroll-proportion="0.89045936">
+        <state line="17" column="51" selection-start="631" selection-end="631" vertical-scroll-proportion="-4.92">
           <folding />
         </state>
       </provider>
       <provider editor-type-id="com.intellij.javaee.module.view.web.viewlets.WebModuleGeneralEditorProvider">
         <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/dao/CountryDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="17" selection-start="215" selection-end="215" vertical-scroll-proportion="0.95154184">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/dao/CountryDAOImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="28" column="54" selection-start="747" selection-end="747" vertical-scroll-proportion="0.6814516">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/service/CountryServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="0" selection-start="720" selection-end="720" vertical-scroll-proportion="1.5967742">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/service/CountryService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="17" selection-start="219" selection-end="219" vertical-scroll-proportion="0.87096775">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/WEB-INF/jsp/country_list.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="41" column="35" selection-start="1754" selection-end="1765" vertical-scroll-proportion="-7.3125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/domain/Country.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/jack/hao/lab/spring/mvc/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="82" selection-start="324" selection-end="324" vertical-scroll-proportion="0.5645161">
+          <folding />
+        </state>
       </provider>
     </entry>
   </component>
@@ -705,7 +847,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>Spring|lab-spring-mvc</last-edited>
+          <last-edited>lab-spring-mvc</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
@@ -729,7 +871,7 @@
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
         <settings>
-          <last-edited>spring-security-3.1.4</last-edited>
+          <last-edited>project-lib</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
