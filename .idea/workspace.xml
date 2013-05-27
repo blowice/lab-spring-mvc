@@ -3,9 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ee2267c-c12b-4dd1-8636-db84053caa34" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/spring-security.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/spring-security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/web/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/web/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lab-spring-mvc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -105,7 +102,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="46" selection-start="386" selection-end="386" vertical-scroll-proportion="1.1612903">
+            <state line="16" column="4" selection-start="365" selection-end="365" vertical-scroll-proportion="1.1612903">
               <folding />
             </state>
           </provider>
@@ -770,7 +767,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="46" selection-start="386" selection-end="386" vertical-scroll-proportion="1.1612903">
+        <state line="16" column="4" selection-start="365" selection-end="365" vertical-scroll-proportion="1.1612903">
           <folding />
         </state>
       </provider>
