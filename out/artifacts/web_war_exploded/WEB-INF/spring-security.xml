@@ -42,6 +42,9 @@
         <form-login login-page="/login.do" default-target-url="/welcome.do"
                     authentication-failure-url="/loginfailed.do"/>
         <logout logout-success-url="/logout.do"/>
+        <session-management>
+            <concurrency-control max-sessions="1" /> <!-- only 1 session is allowed for each user -->
+        </session-management>
     </http>
 
     <authentication-manager>
