@@ -15,6 +15,7 @@ DONE:
 
 TODO:
 
+    add maven support
     integrate with jenkens
     implement datatables server side data fetching
     implement datatables save table as excel or pdf
