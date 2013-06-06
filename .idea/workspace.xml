@@ -3,14 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="3ee2267c-c12b-4dd1-8636-db84053caa34" name="Default" comment="">
       <change type="DELETED" beforePath="C:\javadev\projects\lab-spring-mvc\src\main\java\test\TestORM.java" afterPath="" />
-      <change type="MOVED" beforePath="C:\javadev\projects\lab-spring-mvc\src\main\resources\jdbc.properties" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jdbc.properties" />
-      <change type="MOVED" beforePath="C:\javadev\projects\lab-spring-mvc\src\main\resources\mvc-dispatcher-servlet.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/mvc-dispatcher-servlet.xml" />
-      <change type="MOVED" beforePath="C:\javadev\projects\lab-spring-mvc\src\main\resources\spring-security.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/spring-security.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lab-spring-mvc.iml" afterPath="$PROJECT_DIR$/lab-spring-mvc.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="lab-spring-mvc.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -106,7 +98,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="49" selection-start="80" selection-end="80" vertical-scroll-proportion="0.105675146">
+            <state line="4" column="98" selection-start="81" selection-end="81" vertical-scroll-proportion="0.1409002">
               <folding />
             </state>
           </provider>
@@ -740,7 +732,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1296" height="696" extended-state="6" />
+    <frame x="-8" y="-8" width="1296" height="696" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32960895" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -936,7 +928,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="49" selection-start="80" selection-end="80" vertical-scroll-proportion="0.105675146">
+        <state line="4" column="98" selection-start="81" selection-end="81" vertical-scroll-proportion="0.1409002">
           <folding />
         </state>
       </provider>
