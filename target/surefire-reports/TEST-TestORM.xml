@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" ?>
-<testsuite failures="0" time="0.025" errors="0" skipped="0" tests="1" name="TestORM">
+<testsuite failures="0" time="0.024" errors="0" skipped="0" tests="1" name="TestORM">
   <properties>
     <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.6.0_16\jre\bin"/>
@@ -19,7 +19,7 @@
     <property name="basedir" value="C:\javadev\projects\lab-spring-mvc"/>
     <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.6.0_16\jre\lib\endorsed"/>
     <property name="os.arch" value="amd64"/>
-    <property name="surefire.real.class.path" value="C:\Users\jack\AppData\Local\Temp\surefirebooter8122155154711032296.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\jack\AppData\Local\Temp\surefirebooter8578579419750011539.jar"/>
     <property name="java.io.tmpdir" value="C:\Users\jack\AppData\Local\Temp\"/>
     <property name="line.separator" value="
 "/>

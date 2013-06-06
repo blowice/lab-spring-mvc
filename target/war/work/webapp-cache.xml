@@ -10,8 +10,11 @@
           <string>js/jquery.dataTables.js</string>
           <string>js/jquery.dataTables.min.js</string>
           <string>js/jquery.js</string>
+          <string>WEB-INF/jdbc.properties</string>
           <string>WEB-INF/jsp/country_list.jsp</string>
           <string>WEB-INF/jsp/login.jsp</string>
+          <string>WEB-INF/mvc-dispatcher-servlet.xml</string>
+          <string>WEB-INF/spring-security.xml</string>
           <string>WEB-INF/web.xml</string>
           <string>WEB-INF/classes/jdbc.properties</string>
           <string>WEB-INF/classes/main/java/mvc/controller/HelloController.class</string>

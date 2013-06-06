@@ -1,7 +1,7 @@
 lab-spring-mvc
 ==============
 
-spring+spring mvc+spring security+hibernate
+spring+spring mvc+spring security+hibernate+maven
 
 ==============
 DONE:
@@ -13,9 +13,16 @@ DONE:
 
       setup spring security rules - 2013-05-27
 
+      add maven support - 2013-06-07
+
+      add maven -> tomcat auto deployment - 2013-06-07
+
+      add maven -> test - 2013-06-07
+
+      add maven -> refactor project directory structure - 2013-06-07
+
 TODO:
 
-    add maven support
     integrate with jenkens
     implement datatables server side data fetching
     implement datatables save table as excel or pdf
