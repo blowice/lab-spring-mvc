@@ -1,4 +1,4 @@
-package main.java.mvc.domain;
+package mvc.domain;
 
 /**
  * Created with IntelliJ IDEA.

@@ -1,6 +1,6 @@
-package main.java.mvc.controller;
+package mvc.controller;
 
-import main.java.mvc.service.CountryService;
+import mvc.service.CountryService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.ModelMap;

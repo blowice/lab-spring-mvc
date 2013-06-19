@@ -1,7 +1,8 @@
-package main.java.mvc.service;
+package mvc.service;
 
-import main.java.mvc.dao.CountryDao;
-import main.java.mvc.domain.Country;
+
+import mvc.dao.CountryDao;
+import mvc.domain.Country;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Propagation;
@@ -17,7 +18,7 @@ import java.util.List;
  */
 @Service
 @Transactional(propagation = Propagation.SUPPORTS, readOnly = true)
-public class CountryServiceImpl implements CountryService{
+public class CountryServiceImpl implements CountryService {
     @Autowired
     CountryDao countryDao;
 

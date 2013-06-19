@@ -1,6 +1,6 @@
-package main.java.mvc.dao;
+package mvc.dao;
 
-import main.java.mvc.domain.Country;
+import mvc.domain.Country;
 
 import java.util.List;
 

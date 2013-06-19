@@ -10,7 +10,7 @@
         http://www.springframework.org/schema/tx
         http://www.springframework.org/schema/tx/spring-tx-3.0.xsd">
 
-    <context:component-scan base-package="main.java.mvc"/>
+    <context:component-scan base-package="mvc"/>
     <context:property-placeholder location="WEB-INF/jdbc.properties" />
     <tx:annotation-driven transaction-manager="hibernateTransactionManager" />
 

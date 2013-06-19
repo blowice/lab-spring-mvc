@@ -1,6 +1,6 @@
-package main.java.mvc.dao;
+package mvc.dao;
 
-import main.java.mvc.domain.Country;
+import mvc.domain.Country;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Repository;
