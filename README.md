@@ -21,11 +21,24 @@ DONE:
 
       add maven -> refactor project directory structure - 2013-06-07
 
+      integrate with jenkens (failed to hook up github)
+
+      implement datatables server side data fetching - 2013-06-21
+
+-------------------------------------------------------------------------------------
 TODO:
-
-    integrate with jenkens
-    implement datatables server side data fetching
+    fix the pagination bug
     implement datatables save table as excel or pdf
+    implement webservice soap call
+    implement spring ws
 
+
+-------------------------------------------------------------------------------------
+Reading List:
+
+http://www.codeproject.com/Articles/359750/jQuery-DataTables-in-Java-Web-Applications
+http://www.mkyong.com/java/how-do-convert-java-object-to-from-json-format-gson-api/
+http://datatables.net/development/server-side/jsp
+http://www.codeproject.com/Articles/193068/Adding-data-management-CRUD-functionalities-to-the
 
 
