@@ -46,6 +46,7 @@
           <string>WEB-INF/mvc-dispatcher-servlet.xml</string>
           <string>WEB-INF/spring-security.xml</string>
           <string>WEB-INF/web.xml</string>
+          <string>WEB-INF/classes/mvc/controller/HelloController$1.class</string>
           <string>WEB-INF/classes/mvc/controller/HelloController.class</string>
           <string>WEB-INF/classes/mvc/dao/CountryDao.class</string>
           <string>WEB-INF/classes/mvc/dao/CountryDAOImpl.class</string>

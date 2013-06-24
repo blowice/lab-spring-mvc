@@ -14,6 +14,8 @@ import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.List;
 
 
@@ -79,24 +81,37 @@ public class HelloController {
         }
 
 
-        // sort the result
-//        final int sortColumnIndex = iSortCol_0;
-//        final int sortDirection = sSortDir_0.equals("asc") ? -1 : 1;
-//
-//        Collections.sort(filteredList, new Comparator<Country>() {
-//            @Override
-//            public int compare(Country c1, Country c2) {
-//                switch (sortColumnIndex) {
-//                    case 0:
-//                        return c1.getCode().compareTo(c2.getCode()) * sortDirection;
-//                    case 1:
-//                        return c1.getDescription().compareTo(c2.getDescription()) * sortDirection;
-//                    case 2:
-//                        return c1.getNationalityName().compareTo(c2.getNationalityName()) * sortDirection;
-//                }
-//                return 0;
-//            }
-//        });
+        //sort the result
+        final int sortColumnIndex = iSortCol_0;
+        final int sortDirection = sSortDir_0.equals("asc") ? -1 : 1;
+
+        Collections.sort(filteredList, new Comparator<Country>() {
+            @Override
+            public int compare(Country c1, Country c2) {
+                switch (sortColumnIndex) {
+                    case 0:
+                        if (c1.getId() != null && c2.getId() != null) {
+                            return c1.getId().compareTo(c2.getId()) * sortDirection;
+                        }
+
+                    case 1:
+                        if(c1.getCode()!=null&&c2.getCode()!=null){
+                            return c1.getCode().compareTo(c2.getCode()) * sortDirection;
+                        }
+
+                    case 2:
+                        if(c1.getDescription()!=null&&c2.getDescription()!=null){
+                            return c1.getDescription().compareTo(c2.getDescription()) * sortDirection;
+                        }
+
+                    case 3:
+                        if(c1.getNationalityName()!=null&&c2.getNationalityName()!=null){
+                            return c1.getNationalityName().compareTo(c2.getNationalityName()) * sortDirection;
+                        }
+                }
+                return 0;
+            }
+        });
 
         // pagination
         final int filteredListSize = filteredList.size();
@@ -112,7 +127,7 @@ public class HelloController {
 
             jsonResponse.addProperty("sEcho", sEcho);
             jsonResponse.addProperty("iTotalRecords", fullCountryList.size());
-            jsonResponse.addProperty("iTotalDisplayRecords", filteredList.size());
+            jsonResponse.addProperty("iTotalDisplayRecords", filteredListSize);
 
             JsonArray data = new JsonArray();
             for (Country c : filteredList) {

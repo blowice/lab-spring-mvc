@@ -25,13 +25,17 @@ DONE:
 
       implement datatables server side data fetching - 2013-06-21
 
+      fix the pagination bug - 2013-06-24
+
+      fix the sorting bug - 2013-06-24
+
 -------------------------------------------------------------------------------------
 TODO:
-    fix the pagination bug
+
     implement datatables save table as excel or pdf
     implement webservice soap call
     implement spring ws
-
+    crud datatables, pivotal tracker style
 
 -------------------------------------------------------------------------------------
 Reading List:
