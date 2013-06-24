@@ -8,22 +8,38 @@
 <head>
 
     <link href="css/demo_page.css" rel="stylesheet" type="text/css" />
-    <link href="css/demo_table.css" rel="stylesheet" type="text/css" />
+    <%--<link href="css/demo_table.css" rel="stylesheet" type="text/css" />--%>
     <link href="css/demo_table_jui.css" rel="stylesheet" type="text/css" />
-    <link href="css/jquery-ui.css" rel="stylesheet" type="text/css" media="all" />
-    <link href="css/jquery-ui-1.7.2.custom.css" rel="stylesheet" type="text/css" media="all" />
+    <link href="css/TableTools_JUI.css" rel="stylesheet" type="text/css" />
+    <%--<link href="css/jquery-ui.css" rel="stylesheet" type="text/css" media="all" />--%>
+    <link href="css/jquery-ui-1.8.4.custom.css" rel="stylesheet" type="text/css" media="all" />
 
 
     <script type="text/javascript" language="javascript" src="js/jquery.js"></script>
     <script type="text/javascript" language="javascript" src="js/jquery.dataTables.js"></script>
+    <script type="text/javascript" language="javascript" src="js/TableTools.js"></script>
+    <script type="text/javascript" language="javascript" src="js/ZeroClipboard.js"></script>
     <script type="text/javascript" charset="utf-8">
         $(document).ready(function() {
             $('#example').dataTable( {
                 "bServerSide": true,
                 "sAjaxSource": "serverFetchingCountryList.do",
                 "bProcessing": true,
+                "iDisplayLength": 25,
                 "sPaginationType": "full_numbers",
-                "bJQueryUI": true
+                "bJQueryUI": true,
+                "sDom": '<"H"Tfr>t<"F"ip>',
+                "oTableTools": {
+                    "sSwfPath": "swf/copy_csv_xls_pdf.swf",
+                    "aButtons": [
+                        "copy", "csv", "xls", "pdf",
+                        {
+                            "sExtends":    "collection",
+                            "sButtonText": "Save",
+                            "aButtons":    [ "csv", "xls", "pdf" ]
+                        }
+                    ]
+                }
             } );
         } );
     </script>

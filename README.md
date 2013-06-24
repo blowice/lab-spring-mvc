@@ -3,8 +3,9 @@ lab-spring-mvc
 
 spring+spring mvc+spring security+hibernate+maven
 
-==============
+=================================
 DONE:
+
       create hello world project and deploy it in tomcat6 - 2013-05-25
 
       retrieve data from postgreSQL db via hibernate and display it in jsp - 2013-05-27
@@ -29,15 +30,18 @@ DONE:
 
       fix the sorting bug - 2013-06-24
 
--------------------------------------------------------------------------------------
+      implement datatables save table as excel or pdf - 2013-06-24
+
+
+=================================
 TODO:
 
-    implement datatables save table as excel or pdf
+
     implement webservice soap call
     implement spring ws
     crud datatables, pivotal tracker style
 
--------------------------------------------------------------------------------------
+=================================
 Reading List:
 
 http://www.codeproject.com/Articles/359750/jQuery-DataTables-in-Java-Web-Applications

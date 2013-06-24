@@ -8,7 +8,9 @@
           <string>css/demo_table.css</string>
           <string>css/demo_table_jui.css</string>
           <string>css/jquery-ui-1.7.2.custom.css</string>
+          <string>css/jquery-ui-1.8.4.custom.css</string>
           <string>css/jquery-ui.css</string>
+          <string>css/TableTools_JUI.css</string>
           <string>images/back_disabled.jpg</string>
           <string>images/back_enabled.jpg</string>
           <string>images/details_close.png</string>
@@ -39,6 +41,10 @@
           <string>js/jquery.dataTables.js</string>
           <string>js/jquery.dataTables.min.js</string>
           <string>js/jquery.js</string>
+          <string>js/TableTools.js</string>
+          <string>js/ZeroClipboard.js</string>
+          <string>swf/copy_csv_xls.swf</string>
+          <string>swf/copy_csv_xls_pdf.swf</string>
           <string>WEB-INF/jdbc.properties</string>
           <string>WEB-INF/jsp/country_list.jsp</string>
           <string>WEB-INF/jsp/login.jsp</string>
