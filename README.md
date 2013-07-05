@@ -1,7 +1,7 @@
 lab-spring-mvc
 ==============
 
-spring+spring mvc+spring security+hibernate+maven
+spring+spring mvc+spring security+hibernate+maven+jquery+datatables+tabletools
 
 =================================
 DONE:
@@ -32,9 +32,26 @@ DONE:
 
       implement datatables save table as excel or pdf - 2013-06-24
 
+-------------------------------------------------------------------------
+     Turn the project to a webpage game @ 2013-07-04
 
+         use jquery ui icon + -
+         fix the display to the centre issue
+         check possibility to combine general info and attribute info div
+         check the way to fix the width of 忍者里 toggle, mabye put description under name link
+         create javascript functions to random assign attributes, validate total attr point (>0, <40),
+         deduct the total point when user click + and increase the total point when user click -
 =================================
 TODO:
+
+    find a way to select 忍者里
+    create db table
+    server side code to create player
+
+
+
+
+
 
 
     implement webservice soap call

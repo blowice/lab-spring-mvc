@@ -13,10 +13,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
 import org.springframework.web.servlet.ModelAndView;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.Comparator;
-import java.util.List;
+import java.util.*;
 
 
 /**
@@ -170,5 +167,19 @@ public class HelloController {
         return "login";
 
     }
+
+    @RequestMapping(value = "/createPlayer.do", method = RequestMethod.GET)
+    public String createUserGeneralInfo(Map model) {
+        List<String> sexList = new ArrayList<String>(); // set the checkbox list
+        sexList.add("男");
+        sexList.add("女");
+
+        model.put("sexList", sexList);
+        model.put("sex", "男");  // by default the sex is male
+
+        return "demo";
+
+    }
+
 
 }

@@ -28,7 +28,8 @@
                 "iDisplayLength": 25,
                 "sPaginationType": "full_numbers",
                 "bJQueryUI": true,
-                "sDom": '<"H"Tfr>t<"F"ip>',
+                "sDom": 'T<"clear">lfrtip',
+//                "sDom":'<"H"Tfr>t<"F"ip>', // theme
                 "oTableTools": {
                     "sSwfPath": "swf/copy_csv_xls_pdf.swf",
                     "aButtons": [
