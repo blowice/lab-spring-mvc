@@ -2,7 +2,11 @@ package mvc.controller;
 
 import com.google.gson.*;
 import mvc.domain.Country;
+import mvc.domain.Li;
+import mvc.domain.Player;
+import mvc.domain.helper.PlayerAttributeHelper;
 import mvc.service.CountryService;
+import mvc.service.GameService;
 import mvc.util.DataTablesUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
@@ -24,9 +28,12 @@ import java.util.*;
  * To change this template use File | Settings | File Templates.
  */
 @Controller
-public class HelloController {
+public class GameController {
     @Autowired
     private CountryService countryService;
+
+    @Autowired
+    private GameService gameService;
 
     @RequestMapping(value = "/fullCountryList.do", method = RequestMethod.GET)
     public ModelAndView displayFullCountryList(ModelMap model) {
@@ -168,18 +175,93 @@ public class HelloController {
 
     }
 
-    @RequestMapping(value = "/createPlayer.do", method = RequestMethod.GET)
-    public String createUserGeneralInfo(Map model) {
-        List<String> sexList = new ArrayList<String>(); // set the checkbox list
-        sexList.add("男");
-        sexList.add("女");
+    @RequestMapping(value = "/createPlayer.do")
+    public String createPlayer(Map model) {
 
-        model.put("sexList", sexList);
-        model.put("sex", "男");  // by default the sex is male
+        List<Li> ninjaLiList = gameService.getLi();
 
-        return "demo";
+        List<PlayerAttributeHelper> attributeList=new LinkedList<PlayerAttributeHelper>();  // hardcoded
+        attributeList.add(new PlayerAttributeHelper("power","力量"));
+        attributeList.add(new PlayerAttributeHelper("speed","速度"));
+        attributeList.add(new PlayerAttributeHelper("wisdom","智力"));
+        attributeList.add(new PlayerAttributeHelper("blood","血气"));
+
+        model.put("ninjaLiList",ninjaLiList); // ninja li list for user to choose from
+        model.put("attributeList",attributeList); // attribute name list
+
+        return "create_player";
 
     }
 
+    @RequestMapping(value = "/persistPlayer.do", method = RequestMethod.POST)
+    public ModelAndView persistPlayer(Map model,
+                                      @RequestParam("name") String name,
+                                      @RequestParam("h_power") Integer power,
+                                      @RequestParam("h_speed") Integer speed,
+                                      @RequestParam("h_wisdom") Integer wisdom,
+                                      @RequestParam("h_blood") Integer blood,
+                                      @RequestParam("selectedLiId") Integer li,
+                                      @RequestParam("selectedSex") String sex
+                                      ) {
+        // check uniqueness of the name
+        Player existingPlayerWithSameName=gameService.getPlayerByName(name);
+        if(existingPlayerWithSameName!=null){
+            System.out.println("name existing...");
+            return null; //TODO return to a proper page
+        }
 
+        // TODO get li objects from cache
+        List<Li> ninjaLiList = gameService.getLi();
+        Li selectedLi=null;
+        for(Li ninja_li:ninjaLiList){
+            if(ninja_li.getLiId().equals(li)){
+                selectedLi=ninja_li;
+                System.out.println(ninja_li.getLiName());
+            }
+        }
+
+        //
+        Date current=new Date();
+        Player player =new Player();
+        player.setPlayerName(name);
+        player.setSex(sex);
+        player.setPower(power);
+        player.setSpeed(speed);
+        player.setWisdom(wisdom);
+        player.setBlood(blood);
+        player.setLi(selectedLi);
+        player.setRegisterTime(current);
+        player.setLastActiveTime(current);
+        player.setExp(0l);
+        player.setHp(100);
+        player.setLevel(1);
+
+
+
+        System.out.println("before create player..");
+        System.out.println("gameService="+gameService);
+        System.out.println("player="+player);
+        String status=gameService.createPlayer(player);
+        System.out.println("after create player "+status);
+
+
+        return new ModelAndView("main", "model", model);
+
+    }
+
+    public CountryService getCountryService() {
+        return countryService;
+    }
+
+    public void setCountryService(CountryService countryService) {
+        this.countryService = countryService;
+    }
+
+    public GameService getGameService() {
+        return gameService;
+    }
+
+    public void setGameService(GameService gameService) {
+        this.gameService = gameService;
+    }
 }

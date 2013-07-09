@@ -7,6 +7,7 @@ import org.junit.Test;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.regex.Pattern;
 
 
 /**
@@ -72,6 +73,19 @@ public class TestCountry {
         JsonArray data=new JsonArray();
         data.add(row);
         Assert.assertEquals("[[\"au\",\"Australia\"]]", data.toString());
+    }
+
+    @Test
+    public void testReg(){
+//        Pattern pattern=Pattern.compile("^img([0-9].{0,3})(\\.)(?i)(jpg|png)$");
+
+
+        Pattern pattern=Pattern.compile("^([\u4E00-\uFA29]|[\uE7C7-\uE7F3]|[a-zA-Z0-9]){3,15}$");
+        Assert.assertEquals(true, pattern.matcher("img123png").matches());
+        Assert.assertEquals(true, pattern.matcher("反对撒旦撒").matches());
+        Assert.assertEquals(false, pattern.matcher("啊").matches());
+        Assert.assertEquals(false, pattern.matcher("反对撒旦撒反对撒案发司法方法反对撒发").matches());
+
     }
 
 

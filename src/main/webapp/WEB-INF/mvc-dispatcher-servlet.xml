@@ -37,6 +37,8 @@
         <property name="annotatedClasses">
             <list>
                 <value>mvc.domain.Country</value>
+                <value>mvc.domain.Player</value>
+                <value>mvc.domain.Li</value>
             </list>
         </property>
         <property name="hibernateProperties">

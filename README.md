@@ -41,12 +41,19 @@ DONE:
          check the way to fix the width of 忍者里 toggle, mabye put description under name link
          create javascript functions to random assign attributes, validate total attr point (>0, <40),
          deduct the total point when user click + and increase the total point when user click -
+         find a way to select 忍者里
+         create db table
+         server side code to create player and persist it into db
 =================================
 TODO:
+         add password input while create player
+         create main.jsp -> the index page for player after successful login
+         create header,footer
+         create chat function
+         think about fight system, level up system, skill system
 
-    find a way to select 忍者里
-    create db table
-    server side code to create player
+
+
 
 
 
